@@ -1,23 +1,22 @@
-# Итоги EDA
+## EDA results
 
-## <s> Будущие атрибуты 
+### Future Attributes 
 
-### Трансакции 
-- Дни недели (bool)
+### Transactions 
+- Days of the week (bool)
 
-### Бенза 
-- Цена на газ (float)
+### Oil 
+- Oil Price (float)
 
-### Магазины
-- Тип магазина (a-e -> 0-4, int)
-- Кластер магазина
-- город и штат, в котором они находятся (bool, onehot)
+### Stores
+- Store type (a-e -> 0-4, int)
+- Store Cluster
+- City and state they are located in (bool, onehot)
 
-### Праздники
-- Был ли праздник в этот день/праздник (bool, onehot)
-</s>
+### Holidays
+- Was there a holiday on this day/holiday (bool, onehot)
 
-## Дополнительные замечани
-- <s>убрать данные о Апреле 2016 года (землятрясение)</s>
-- отдельно просчитать магазины в которых не продаются отдельные семейства товаров
-- <s>поделить все данные на 33 датафрейма для каждого семейства продуктов</s>
+### Additional Notes
+- remove data about April 2016 (earthquake)
+- calculate stores that do not sell certain product families separately
+- divide all data into 33 dataframes for each product family

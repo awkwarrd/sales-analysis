@@ -1,40 +1,37 @@
-# Sales Forecasting Time Series Dataset Brainstorm
+## Sales Forecasting Time Series Dataset Brainstorm
 
-## Гипотезы и идеи
+### Hypotheses and ideas
 
-### <s> Трансакции.csv
+### Transactions.csv
 
-- Проверка продаж по дням недели
-- Проверка прожаж по дням месяца (так как зп платят в 15ые дни месяца и в последний день)
-- Проверка продаж по месяцам
-- Проверка рассписания магазинов</s>
+- Checking sales by day of the week
+- Checking sales by day of the month (since salaries are paid on the 15th day of the month and on the last day).
+- Check sales by month
+- Checking the schedule of stores
 
-### <s> Газик.csv
+### Oil.csv
 
-- Интерполяция цен на газик и проверка зависимости с таргетом / трансакциями</s>
+- Interpolate oil prices and check the relationship with target/transactions
 
-### <s> Магазины.csv
+### Stores.csv
 
-- Проверка связи между продажами магазина и
-    1. его типом
-    2. городом, в котором он находится
-    3. штатом, в котором он находится
-    4. его кластером</s>
+- Checking the relationship between a store's sales and
+    1. its type
+    2. the city in which it is located
+    3. the state in which it is located
+    4. its cluster
 
-### Праздники.csv
+#### Holidays.csv
 
-- <s>Препроцессинг данных для лучшего анализа</s>
-- Проверка уровня продаж перед / во время / после праздников
-- Проверка кореляций между каждым отдельным праздником и уровнями продаж
-- <s>Проверка кореляций между уровнем продаж и праздниками в целом</s>
+- Checking correlations between each individual holiday and sales levels
+- Check correlations between sales levels and holidays as a whole
 
 
-### Тренировочные_данные.csv
+### Training_data.csv
 
-- Проверка тренировочного датасета на выбросы и аномалии
-- Проверка того, какие семейства продуктов продаются в каждом магазине
+- Checking the training dataset for outliers and anomalies
+- Checking which product families are sold in each store
 
-### Другое
+### Other
 
-- Разбитие датафрейма на 33 для каждого семейства продуктов
-- Возможно, разбитие этих 33 датафреймов на еще 54 для каждого магазина....
+- Partitioning the dataframe into 33 for each product family and creating model for each product family
